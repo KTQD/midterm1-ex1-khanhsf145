@@ -1,4 +1,4 @@
-public class Book {
+public class Book extends Item{
   private String author, genre;
     private int numberOfPage;
     Book(String name, String description, String ID, float price, String author, String genre, int numberOfPage) {
